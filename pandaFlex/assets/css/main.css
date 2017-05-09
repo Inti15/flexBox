@@ -45,6 +45,7 @@ a:hover{
 /*Estilos imágenes*/
 #fotos{
   display: flex;
+  width: 90%;
   margin: 0 15%;
   visibility: visible;
   flex-direction: row;
@@ -57,19 +58,21 @@ img{
   width: 200px;
   height:150px;
   padding: 20px;
-  margin-top: -10%;
+  /*margin-top: -10%;*/
   border: 3px solid white;
   border-radius: 5%;
 }
 
 .img{
-  /*margin-right: 5%;*/
   margin-left: 2%;
+  border-radius: 5%;
+    /*margin-right: 5%;*/
 }
 
 .cerrar{
-  /*position: absolute;*/
-  margin-right: 2%;
+  position: absolute;
+  margin-top: 0.8%;
+  margin-left: 18%;
   color: red;
   cursor: pointer;
 }
@@ -88,15 +91,16 @@ span{
 #central{
   display: flex;
   flex-direction: row;
+  width: 40%;
 }
 
 .btn{
-  width: 150px;
-  height: 30px;
+  width: 100%;
   padding-top: 5px;
   text-align: center;
   color: white;
-  margin: 30px;
+  margin-top: 5%;
+  margin-left: 10%;
   border-radius: 5px;
   background-color: #E91E63;
 }
