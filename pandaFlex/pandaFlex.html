@@ -8,9 +8,65 @@
   <body>
     <section class="contenedor">
       <header>
-
+        <nav>
+          <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Pandas</a></li>
+            <li><a href="">Historia</a></li>
+            <li><a href="">Exhibición</a></li>
+          </ul>
+        </nav>
       </header>
-
+      <!-- Contenido -->
+      <article class="">
+        <!--Imágenes  -->
+        <section id="fotos">
+          <div class="img">
+              <span class="cerrar"> X </span>
+              <img src="assets/img/panda1.jpg">
+          </div>
+          <div class="img">
+            <span class="cerrar"> X </span>
+            <img src="assets/img/panda2.jpg">
+          </div>
+          <div class="img">
+            <span class="cerrar"> X </span>
+            <img src="assets/img/panda3.jpg">
+          </div>
+          <div class="img">
+            <span class="cerrar"> X </span>
+            <img src="assets/img/panda4.jpg">
+          </div>
+        </section>
+        <!-- Sección central de botones -->
+        <section id="central" class="posicion">
+          <div class="img"><button id="1" class="btn" onclick="verificaClick(event)"> Origen 🌎 </button></div>
+          <div class="img"><button id="2" class="btn" onclick="verificaClick(event)"> Exhibición 🔎 </button></div>
+          <div class="img"><button id="3" class="btn" onclick="restaurar();"> Restaurar fotos 📷 </button></div>
+        </section>
+        <!-- Sección texto -->
+        <section id="texto" class="posicion">
+          <p id="izq">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            <br>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p id="der">
+            <br>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </section>
+      </article>
     </section>
     <script type="text/javascript" scr="js/app.js"></script>
   </body>
